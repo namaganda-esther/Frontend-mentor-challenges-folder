@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
 body{
     background-color: lightgrey;
     position: relative;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
@@ -27,6 +30,12 @@ body{
     display: flex;
 }
 
+.row-2{
+    position: absolute;
+    right: 360px;
+    color: grey;
+}
+
 img{
   width: 8%;
   height: 10%;
@@ -34,38 +43,42 @@ img{
 
 
 .first{
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border-radius: 3%;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     display: flex;
 }
 
+p{
+  margin: 5px;
+}
+
 .second{
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border-radius: 3%;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     display: flex;
 }
 
 .third{
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border-radius: 3%;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     display: flex;
 }
 
 .fourth{
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
 }
 
 .fifth{
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -77,7 +90,7 @@ img{
 
 .seventh{
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -85,13 +98,15 @@ img{
     border: 1px solid black;
     padding: 10px;
     border-color: hsl(205, 33%, 90%);
+    border-radius: 2%;
 }
 
-.attribution 
-{ font-size: 11px; 
+.attribution { 
+    font-size: 11px; 
     text-align: center; 
+    margin-top: 20px;
 }
 
-.attribution a 
-{ color: hsl(228, 45%, 44%); 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }

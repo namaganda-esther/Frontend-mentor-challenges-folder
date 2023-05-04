@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Notifications page</title>
@@ -15,24 +18,24 @@
   <div class="container">
     <div class="content">
       <div class="row">
-        <h3 class="row-1">Notifications 3</h3>
-        <h4 class="row-2">Mark all as read</h4>
+        <h3 class="row-1">Notifications <span id="unread-count">3</span></h3>
+        <h4 class="row-2" onclick="markAllRead()">Mark all as read</h4>
       </div>
-      <div class="first">
+      <div class="first unread">
         <img src="./assets/images/avatar-mark-webber.webp" alt="">
-        <div>
+        <div class="first-p">
           <p>Mark Webber reacted to your recent post My first tournament today!</p>
           <p>1m ago</p>
         </div>
       </div>
-      <div class="second">
+      <div class="second unread">
         <img src="./assets/images/avatar-angela-gray.webp" alt="">
         <div>
           <p>Angela Gray followed you</p>
           <p>5m ago</p>
         </div>
       </div>
-      <div class="third">
+      <div class="third unread">
         <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
         <div>
           <p>Jacob Thompson has joined your group Chess Club</p>
@@ -78,6 +81,8 @@
     </div>
   </div>
   
+
+  <script src="./script.js"></script>
   
 </body>
 </html>
