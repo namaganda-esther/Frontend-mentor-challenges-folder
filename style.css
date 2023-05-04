@@ -1,0 +1,97 @@
+body{
+    background-color: lightgrey;
+    position: relative;
+    font-size: 16px;
+}
+
+.container{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: hsl(210, 60%, 98%);
+    position: absolute;
+    padding: 50px;
+}
+
+.content{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    border-radius: 2%;
+}
+
+.row{
+    display: flex;
+}
+
+img{
+  width: 8%;
+  height: 10%;
+}
+
+
+.first{
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 3%;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.second{
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 3%;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.third{
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 3%;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.fourth{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.fifth{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.sixth{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.seventh{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.private{
+    border: 1px solid black;
+    padding: 10px;
+    border-color: hsl(205, 33%, 90%);
+}
+
+.attribution 
+{ font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a 
+{ color: hsl(228, 45%, 44%); 
+}
