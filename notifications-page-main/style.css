@@ -41,6 +41,9 @@ img{
   height: 10%;
 }
 
+p{
+    margin: 5px;
+}
 
 .first{
     background-color: hsl(210, 60%, 98%);
@@ -50,8 +53,8 @@ img{
     display: flex;
 }
 
-p{
-  margin: 5px;
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover {
+    background-color: #f0f0f0;
 }
 
 .second{
