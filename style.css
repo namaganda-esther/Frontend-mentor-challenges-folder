@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+body{
+    background-color: lightgrey;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: hsl(210, 60%, 98%);
+    position: absolute;
+    padding: 50px;
+}
+
+.content{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    border-radius: 2%;
+}
+
+.row{
+    display: flex;
+}
+
+.row-1{
+   font-weight:bold;
+   font-size: 24px;
+}
+
+.row-2{
+    position: absolute;
+    right: 360px;
+    color: grey;
+}
+
+img{
+  width: 8%;
+  height: 10%;
+}
+
+p{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.num{
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.dot{
+    width:5px;
+    height: 5px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 100%;
+}
+
+.mid-text{
+   color: hsl(219, 14%, 63%);
+}
+
+.game{
+   color: hsl(219, 12%, 42%);
+  font-weight: bold;
+}
+
+.chess{
+   color: hsl(219, 85%, 26%);
+   font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.image-chess{
+    position: absolute;
+    right: 0px;
+    width: 450px;
+}
+
+.first{
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 3%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover {
+    background-color: #f0f0f0;
+}
+
+.second{
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 3%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.third{
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 3%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.fourth{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fifth{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sixth{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.seventh{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.private{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: justify;
+    border-color: hsl(205, 33%, 90%);
+    border-radius: 2%;
+    color: hsl(219, 14%, 63%);
+    width: 90%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
