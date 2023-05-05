@@ -30,6 +30,11 @@ body{
     display: flex;
 }
 
+.row-1{
+   font-weight:bold;
+   font-size: 24px;
+}
+
 .row-2{
     position: absolute;
     right: 360px;
@@ -43,6 +48,45 @@ img{
 
 p{
     margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.num{
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.dot{
+    width:5px;
+    height: 5px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 100%;
+}
+
+.mid-text{
+   color: hsl(219, 14%, 63%);
+}
+
+.game{
+   color: hsl(219, 12%, 42%);
+  font-weight: bold;
+}
+
+.chess{
+   color: hsl(219, 85%, 26%);
+   font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
 }
 
 .first{
@@ -99,9 +143,12 @@ p{
 
 .private{
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
+    text-align: justify;
     border-color: hsl(205, 33%, 90%);
     border-radius: 2%;
+    color: hsl(219, 14%, 63%);
+    width: 80%;
 }
 
 .attribution { 
