@@ -1,0 +1,78 @@
+
+.container{
+
+    background-color: hsl(0, 0%, 94%);
+    width: 100vw;
+    height: 100vh;   
+    margin: auto;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 30%;
+    padding: 40px;
+    font-size: 32px;
+    width: 30vw;
+}
+
+.form{
+display: grid;
+grid-template-columns: auto auto auto;
+padding-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    /* color: hsl(0, 1%, 44%); */
+}
+
+input{
+   width: 130px;
+   height: 60px;
+   border: 2px solid hsl(0, 1%, 44%);
+   border-radius: 3px;
+   box-sizing: border-box;
+}
+
+input :hover{
+    border: 2px;
+}
+
+input[type=text]{
+    padding:20px;
+    font-size: 30px;
+    text-align: start;
+}
+
+input[type=text]:hover{
+    border-color: hsl(259, 100%, 65%);
+}
+
+.icon{
+    display: flex;
+}
+
+hr{
+    width:25vw ;
+
+}
+
+img{
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 50px;
+    padding: 20px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    align-content: space-between;
+    gap: 20px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
