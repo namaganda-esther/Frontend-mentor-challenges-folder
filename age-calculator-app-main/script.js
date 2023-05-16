@@ -3,10 +3,11 @@ function calculateAge() {
    
    var inputDay = parseInt(document.getElementById('day').value);
    let warningDay;
+
    if(isNaN(inputDay) || inputDay < 1 || inputDay > 31){
-      warningDay = "must be a valid day"
-   }else{
-      warningDay = "this field is required";
+      warningDay = "must be a valid day";
+   }else if( inputDay == ""){
+      warningDay = "this is a required field";
    }
    document.getElementById('warningDay').innerHTML = warningDay;
 
@@ -14,7 +15,7 @@ function calculateAge() {
    var inputMonth = parseInt(document.getElementById('month').value);
    let warningMonth;
    if(isNaN(inputMonth) || inputMonth < 1 || inputMonth > 12){
-      warningMonth = "must be a valid month"
+      warningMonth = "must be a valid month";
    }
    document.getElementById('warningMonth').innerHTML = warningMonth;
 
@@ -22,7 +23,7 @@ function calculateAge() {
    var inputYear = parseInt(document.getElementById('year').value);
    let warningYear;
    if(isNaN(inputYear) || inputYear > Date()){
-      warningYear = "must be in the past"
+      warningYear = "must be in the past";
    }
    document.getElementById('warningYear').innerHTML = warningYear;
 
