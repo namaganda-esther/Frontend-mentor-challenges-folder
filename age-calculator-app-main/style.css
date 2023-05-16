@@ -116,3 +116,85 @@ span{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+
+
+@media screen and (max-width: 1440px){
+
+    .container{
+        background-color: hsl(0, 0%, 94%);
+        width: 100vw;
+        height: 100vh;   
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .content{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        background-color: hsl(0, 0%, 100%);
+        border-bottom-right-radius: 30%;
+        padding: 40px;
+        font-size: 32px;
+        width: 30vw;
+    }
+    
+    .form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 15px;
+    width:23vw ;
+    }
+
+}
+
+
+
+@media screen and (min-width: 375){
+
+    .container{
+        width: 90vw;
+        height: 90vh;   
+        margin: auto;
+    }
+
+    .content{
+        border-bottom-right-radius: 30%;
+        padding: 10px;
+        /* font-size: 32px; */
+        width: 80vw;
+    }
+    
+    .form{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-bottom: 15px;
+        width: 60vw;
+    }
+
+    label{
+        font-size: 10px;
+    }
+    
+    input{
+       width: 75px;
+       height: 70px;
+       border-radius: 10px;
+       box-sizing: border-box;
+    }
+    
+    input :hover{
+        border: 2px;
+    }
+    
+    input[type=text]{
+        padding:20px;
+        font-size: 30px;
+        text-align: start;
+    }
+    
+}
