@@ -17,32 +17,39 @@
         <form>
           <div class="form">
             <div>
-              <label for="day">Day</label><br>
-              <input type="number" name="day" id="day" placeholder="DD">
+              <label for="day">Day</label>
+              <input type="text" name="day" id="day" placeholder="DD" required>
+              <p id="warningDay"></p>
             </div>
             <div>
-              <label for="month"> Month</label><br>
-              <input type="number" name="month" id="month" placeholder="MM">
+              <label for="month"> Month</label>
+              <input type="text" name="month" id="month" placeholder="MM" required>
+              <p id="warningMonth"></p>
             </div>
             <div>
-              <label for="year">Year</label><br>
-              <input type="number" name="year" id="year" placeholder=" YYYY">
+              <label for="year">Year</label>
+              <input type="text" name="year" id="year" placeholder=" YYYY" required>
+              <p id="warningYear"></p>
             </div>
           </div>
         </form>
         <div class="icon">
-          <div><hr></div>
-          <div><img id="arrowimg" onclick="calculateAge()" src="./assets/images/icon-arrow.svg" alt=""></div>
+          <div class="hr">
+            <hr>
+          </div>
+          <div>
+            <img id="arrowimg" onclick="calculateAge()" src="./assets/images/icon-arrow.svg" alt="">
+          </div>
         </div>
-        <div>
-          <h1><span id="ageYears">--</span>years</h1>  
-          <h1><span id="ageMonths">--</span>months</h1>
-          <h1><span id="ageDays">--</span>days</h1>
+        <div class="result">
+          <h1><span id="ageYears">--</span> years</h1>  
+          <h1><span id="ageMonths">--</span> months</h1>
+          <h1><span id="ageDays">--</span> days</h1>
         </div>
 
         <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Esther Namaganda</a>.
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+          Coded by <a href="#">Esther Namaganda.</a>
         </div>
     </div>
   </div>
